@@ -1,0 +1,25 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    }
+    
+    .header { 
+        grid-area: 1 / 1 / 2 / 6; 
+        }
+
+    .main { 
+        grid-area: 2 / 1 / 6 / 6; 
+        }
+        
+    .widget { 
+        grid-area: 6 / 1 / 8 / 6; 
+        }
+        
+    .footer { 
+        grid-area: 8 / 1 / 9 / 6; 
+        }
+        
